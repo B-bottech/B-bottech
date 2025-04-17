@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    font-size: 100%;
+}
+.second-editor-brand {
+    margin-left: 20px;
+    box-shadow: 1px 2px 2px rgb(58,1,61);
+    display: inline-block;
+    text-align: center;
+}
+.mockup-topic {
+    margin-left: 90px;
+    font-size: x-large;
+    box-shadow: 1px 1px 1px rgb(6, 6, 32);
+}
+.editor-picture {
+    width: 100px;
+    margin: 9px;
+    display: inline-block;
+}
+.editor-picture2  {
+    width: 100px;
+    margin: 9px;
+    display: inline-block;
+}
+.allpage {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+#flyers {
+    width: 50px;
+}
+.flyers-image {
+    width: 300px;
+    
+}
+.flyers-image2 {
+    width: 500px;
+    margin: 5px;
+    float: left;
+}
+.slideshowct {
+    position: relative;
+    overflow: hidden; /* adjust width to fit your content */
+    height: 500px; /* adjust height to fit your content */
+  }
+  
+  .content {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: left 0.5s;
+    animation: slide 15s infinite;
+  }
+  .content:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .content:nth-child(2) {
+    animation-delay: 3s;
+  }
+  .content:nth-child(3) {
+    animation-delay: 6s;
+  }
+  .content:nth-child(4) {
+    animation-delay: 9s;
+  }
+  .content:nth-child(5) {
+    animation-delay: 12s;
+  }
+  @keyframes slide {
+    0% {
+      left: 100%;
+    }
+    10% {
+      left: 0;
+    }
+    30% {
+      left: 0;
+    }
+    40% {
+      left: -100%;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+  .slideimage {
+    width: 70%;
+    box-shadow: 2px 2px 10px rgb(14, 14, 59);
+  }
+  .bobo{
+    padding-left: 50px;
+  }
+  .ctsmc {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(255, 244, 244);
+    display: inline-block;
+    padding: 20px;
+    box-shadow: 5px 2px 10px 1px black;
+  }
+  .visitbt {
+    width: 60%;
+    height: 38px;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .wlist {
+    margin-top: 5PX;
+    width: 250px;
+  }
+  .contact {
+    padding-left: 15px;
+  }
+  .contact-cointainer {
+    width: 100%;
+    background-color: aliceblue;
+    display: inline-block;
+    box-shadow: 2px 3px 2px 3px black;
+  }
+  .contact-list {
+    width: 90%;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .tgme {
+    width: 50px;
+    display: inline-block;
+  }
+  .tg {
+    width: 350px;
+    margin-left: 40px;
+  }
+  .tg2 {
+    width: 250px;
+    margin-top: 35px;
+  }
+  .tgbt {
+    width: 250px;
+    height: 40px; 
+    margin-left: 80px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+   .tgbt2 {
+    width: 250px;
+    height: 40px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .wame {
+    background-color: green;
+    border: white;
+    color: white;
+  }
+  .tme {
+    background-color: #111154;
+    border: lightblue;
+    color: white;
+  }
+  .twme {
+    background-color: black;
+    border: white;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .mail {
+    background-color: #460101;
+    border: none;
+    color: white;
+  }
+  .intro {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  #contact {
+    font-size: 150%;
+  }
+  .line {
+    background-color: black;
+    margin-top: 50px;
+  }
